@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
 import { Sidebar } from '../sidebar/Sidebar.component';
+import { Navbar, Container } from 'react-bootstrap';
 
 export const Appbar: React.FC = () => {
     return (
