@@ -1,10 +1,11 @@
 import React from 'react';
-import { BigO } from './course/BigO.component';
 import { Appbar } from './public/appbar/Appbar.component';
+import { BrowserRouter } from 'react-router-dom';
+import { RoutesProvider } from './core/provider/Routes.provider';
 
 export const App: React.FC = () => (
-  <div className="App">
+  <BrowserRouter>
     <Appbar />
-    <BigO />
-  </div>
+    <RoutesProvider />
+  </BrowserRouter>
 );
